@@ -67,15 +67,13 @@ html
 
 section
 {
-	border-radius: 5px;	
 	background-color: #FFFFFF;
-	margin: 0px 80px 0px 80px;
+	height: 760px;
 }
 
 article
 {
 	padding: 2em;
-
 }
 
 header
@@ -86,9 +84,11 @@ header
 .top_nav
 {
 	background-color: #FFFFFF;
+	margin-left: 165px;
 }
 
 .container {
+  border-radius: 5px;	
   margin: 0 auto;
   margin-bottom: 28px;
   margin-top: 28px;
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6, p, ul
 	margin: 0 auto;
 }
 
-.top_nav a:link
+.top_nav a:link, .top_nav a:visited
 {
 	color: gray;
 	border: 2px solid gray;
@@ -132,4 +132,20 @@ h1, h2, h3, h4, h5, h6, p, ul
 {
 	color: aqua;
 	border: 2px solid aqua;
+}
+
+.title2
+{
+	font-size: 24;
+	font-style: bold;
+}
+
+#xkcd1
+{
+	float: none;
+}
+
+footer
+{
+	/*clear:both;*/
 }
